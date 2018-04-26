@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+	<h1 class="font head">This is Auto Brand Trivia!</h1>
+
+
+	<div class="wrapper">
+		<div id="startScreen">
+			<h2 id="instr" class="font">There will be a series of questions, answer them to the best of your knowledge. You have 1 minute.</h2>
+
+			<center><button id="start" class="font button">Click Me to Begin!</button></center>
+			<br>
+		</div>
+
+		<div id="questions">
+
+			<br>
+			<p class="timeLeft font">Time Left: <span id="time">1:00</span></p>
+
+			<div class="container">
+				<p class="font">The auto manufacturer Volvo was established in what country?</p>
+
+				<form>
+					<input type="radio" name="button" value="true" class="font option1"> Sweden
+					<input type="radio" name="button" value="false" class="font option1"> Japan
+					<input type="radio" name="button" value="false" class="font option1"> Austrailia	
+					<input type="radio" name="button" value="false" class="font option1"> Germany
+				</form>
+			</div>
+
+
+			<div class="container">
+				<p class="font">The auto company General Motors was established in what state?</p>
+
+				<form>
+					<input type="radio" name="button" value="false" class="font option2"> Illinois
+					<input type="radio" name="button" value="false" class="font option2"> New York
+					<input type="radio" name="button" value="true" class="font option2"> Michigan	
+					<input type="radio" name="button" value="false" class="font option2"> Wisconsin
+				</form>
+			</div>
+
+
+			<div class="container">
+				<p class="font">The name of the auto manufaturer Volkswagen means what in German?</p>
+
+				<form>
+					<input type="radio" name="button" value="true" class="font option3"> The Peoples Car
+					<input type="radio" name="button" value="false" class="font option3"> The Reliable Car
+					<input type="radio" name="button" value="false" class="font option3"> The Great Car	
+					<input type="radio" name="button" value="false" class="font option3"> The Businessman's Car
+				</form>
+			</div>
+
+
+			<div class="container">
+				<p class="font">The auto company Infiniti is a division of which auto manufacturer?</p>
+
+				<form>
+					<input type="radio" name="button" value="false" class="font option4"> Toyota
+					<input type="radio" name="button" value="false" class="font option4"> Honda
+					<input type="radio" name="button" value="false" class="font option4"> Mazda	
+					<input type="radio" name="button" value="true" class="font option4"> Nissan
+				</form>
+			</div>
+
+
+			<div class="container">
+				<p class="font">The automotive division GEO from the auto manufacterer General Motors was aimed towards what market?</p>
+
+				<form>
+					<input type="radio" name="button" value="false" class="font option5"> Sports Cars
+					<input type="radio" name="button" value="true" class="font option5"> Compact Cars
+					<input type="radio" name="button" value="false" class="font option5"> Luxury Cars	
+					<input type="radio" name="button" value="false" class="font option5"> Trucks
+				</form>
+			</div>
+
+
+			<div class="container">
+				<p class="font">The automotive division Scion belongs to which of the following companies?</p>
+
+				<form>
+					<input type="radio" name="button" value="false" class="font option6"> Ford
+					<input type="radio" name="button" value="false" class="font option6"> Fiat
+					<input type="radio" name="button" value="false" class="font option6"> Subaru	
+					<input type="radio" name="button" value="true" class="font option6"> Toyota
+				</form>
+			</div>
+
+
+			<div class="container">
+				<p class="font">The auto manufacturer Plymouth originated from which of the following countries?</p>
+				<form>
+					<input type="radio" name="button" value="false" class="font option7"> England
+					<input type="radio" name="button" value="false" class="font option7"> Scottland
+					<input type="radio" name="button" value="true" class="font option7"> United States	
+					<input type="radio" name="button" value="false" class="font option7"> Massachusetts
+				</form>
+			</div>
+
+
+			<div class="container">
+				<p class="font">Which auto manufacterer is known for inventing the "Production Line"?</p>
+
+				<form>
+					<input type="radio" name="button" value="true" class="font option8"> Ford
+					<input type="radio" name="button" value="false" class="font option8"> Chevrolet
+					<input type="radio" name="button" value="false" class="font option8"> Tesla	
+					<input type="radio" name="button" value="false" class="font option8"> Toyota
+				</form>
+			</div>
+
+
+			<center><button id="earlyB" class="font button">Finish Early?</button><center>
+			<br>
+		</div>
+
+
+
+		<div id="endScreen">
+			<div class="container">
+				<h3 class="font winHead">Done!</h3>
+				<p id="rights" class="font result"></p>
+				<p id="wrongs" class="font result"></p>
+				<p id="unanswered" class="font result"></p>
+				<br>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+</html>

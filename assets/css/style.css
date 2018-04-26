@@ -1,0 +1,55 @@
+body {
+	background-image: url("../images/cars2Back.jpg");
+	background-size: 100%;
+}
+.font {
+	font-family: helvetica;
+	font-size: 18px;
+}
+.head {
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	background-color: grey;
+	margin: 0px 0px;
+	margin-bottom: 10px;
+	width: 100%;
+	padding: 20px 0px;
+}
+.wrapper {
+	background-color: white;
+	margin: 0px 160px;
+	opacity: .95;
+}
+.button {
+	padding: 3px;
+}
+#instr {
+	text-align: center;
+	padding: 10px 0px;
+	padding-top: 40px;
+}
+.timeLeft {
+	font-size: 26px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 20px;
+	width: 200px;
+	padding: 12px 0px;
+	color: red;
+	background-color: black;
+}
+.container {
+	margin: 40px 20px;
+	text-align: center;
+}
+.winHead {
+	font-size: 38px;
+	color: red;
+	margin: 10px;
+	padding: 30px;
+}
+.result {
+	margin: 0px;
+	padding: 20px;
+}
